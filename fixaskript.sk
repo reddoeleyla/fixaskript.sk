@@ -1,0 +1,6 @@
+command /fixaskript:
+    permission: sk.fixaskript
+    permission message: &b&lSKRIPT &7Comando Sconosciuto
+    trigger:
+        give player stick of knockback 104 named "&b&lFIXASKRIPT"
+        broadcast %player% ha fixato skript
